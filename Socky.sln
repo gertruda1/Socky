@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockyWeb_Server", "SockyWeb_Server\SockyWeb_Server.csproj", "{C005B9AC-224B-47A0-B1A5-2F820F489C04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockyWeb_Client", "SockyWeb_Client\SockyWeb_Client.csproj", "{2BC14C70-E23D-46E5-AC73-F87423E8648A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socky_Models", "Socky_Models\Socky_Models.csproj", "{998C82C3-3B72-45C9-9B6E-FBCA4CB128A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socky_Business", "Socky_Business\Socky_Business.csproj", "{97CD6412-3322-4598-9AF9-40360CE8A72E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socky_Common", "Socky_Common\Socky_Common.csproj", "{17A52B44-1727-4334-8A33-7283CF14EBC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Socky_DataAccess", "Socky_DataAccess\Socky_DataAccess.csproj", "{632C29A2-38EE-4516-8F06-D2B5A7D20A2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockyWeb_API", "SockyWeb_API\SockyWeb_API.csproj", "{A82CF88D-6D96-4EA4-BF01-1F545DDF49DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C005B9AC-224B-47A0-B1A5-2F820F489C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C005B9AC-224B-47A0-B1A5-2F820F489C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C005B9AC-224B-47A0-B1A5-2F820F489C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C005B9AC-224B-47A0-B1A5-2F820F489C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC14C70-E23D-46E5-AC73-F87423E8648A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC14C70-E23D-46E5-AC73-F87423E8648A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC14C70-E23D-46E5-AC73-F87423E8648A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC14C70-E23D-46E5-AC73-F87423E8648A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998C82C3-3B72-45C9-9B6E-FBCA4CB128A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998C82C3-3B72-45C9-9B6E-FBCA4CB128A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998C82C3-3B72-45C9-9B6E-FBCA4CB128A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998C82C3-3B72-45C9-9B6E-FBCA4CB128A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CD6412-3322-4598-9AF9-40360CE8A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CD6412-3322-4598-9AF9-40360CE8A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CD6412-3322-4598-9AF9-40360CE8A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CD6412-3322-4598-9AF9-40360CE8A72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A52B44-1727-4334-8A33-7283CF14EBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A52B44-1727-4334-8A33-7283CF14EBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A52B44-1727-4334-8A33-7283CF14EBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A52B44-1727-4334-8A33-7283CF14EBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632C29A2-38EE-4516-8F06-D2B5A7D20A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632C29A2-38EE-4516-8F06-D2B5A7D20A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632C29A2-38EE-4516-8F06-D2B5A7D20A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632C29A2-38EE-4516-8F06-D2B5A7D20A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82CF88D-6D96-4EA4-BF01-1F545DDF49DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82CF88D-6D96-4EA4-BF01-1F545DDF49DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82CF88D-6D96-4EA4-BF01-1F545DDF49DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82CF88D-6D96-4EA4-BF01-1F545DDF49DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {885DBC37-F111-4753-803A-B20EAB388A7D}
+	EndGlobalSection
+EndGlobal
